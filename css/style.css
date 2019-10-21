@@ -1,0 +1,133 @@
+/*base classes*/ 
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.opacity{
+	opacity: 0.5;
+}
+.p-rel{
+	position: relative;
+}
+.p-abs{
+	position: absolute;
+}
+/*end base classes*/
+
+/*navigation*/
+.logo1{
+	width: 197px;
+	padding-top: 20px;
+}
+.nav-a{
+	font-family: 'Roboto';
+	font-size: 24px;
+	color: #3D58A6;
+	background-color: pink;
+	text-transform: uppercase;
+}
+.nav-li{
+	margin-right: 28px;
+}
+.social{
+	color: #3D58A6;
+	font-size: 34px;
+}
+.social-li:last-child .social{
+	color: #EE4036;
+}
+.social-li::after{
+	content: '';
+	display: inline-block;
+	background-color: #3D58A6;
+	width: 2px;
+	height: 34px;
+	margin: 0 27px;
+	vertical-align: top;
+}
+.social-li:last-child:after{
+	display: none;
+}
+/*end navigation*/
+
+/*section 1*/
+.grey-box{
+	background-color: #D8D8D8;
+	padding: 30px 0;
+}
+.text-box{
+	left: 128px;
+	bottom: 107px;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+.mini-logo{
+	width: 102px;
+	height: 50px;
+	right: 128px;
+	bottom: 87px;
+}
+/*end section 1*/
+
+/*section 2*/
+.blue-box{
+	padding: 34px 0 90px 0;
+	background-color: #363E97;
+}
+.title{
+	font-family: 'Roboto';
+	color: white;
+	background-color: pink;
+	font-size: 24px;
+	display: inline-block;
+	margin-bottom: 29px;
+}
+.video{
+	width: 570px;
+	height: 320px;
+}
+.video iframe{
+	width: 100%;
+	height: 100%;
+}
+/*end section 2*/
+
+/*section 3*/
+.title2{
+	font-family: 'Roboto';
+	color: #3D58A6;
+	background-color: pink;
+	font-size: 24px;
+	display: inline-block;
+	margin-bottom: 29px;
+	margin-top: 35px;
+}
+.img-section{
+	background-color: #BDCCD4;
+}
+.image-wraper{
+	display: flex;
+	justify-content: space-between;
+}
+.wr-img img{
+	width: 270px;
+	height: 210px;
+	display: block;
+}
+.img-titles{
+	font-family: 'Roboto';
+	color: #333333;
+	font-size: 22px;
+	text-transform: uppercase;
+	background-color: #E6E6E6;
+	padding: 20px 0 22px 14px;
+}
+/*end section 3*/
